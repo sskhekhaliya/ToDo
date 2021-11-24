@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Todo app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+  <div class="top">
+    <div class="shadow"></div>
+    <div class="background-image"></div>
+    <div class="main-container">
+      <div class="heading">
+        <h1>Todo</h1>
+        <div class="theme-icon">
+          <img src="images/icon-sun.svg" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="input-item">
+          <div class="unchecked-input"></div>
+          <input id="test" type="text" placeholder="Create a new todo..." autofocus>
+        </div>
+        <ul id="foo" class="item-list">
+
+        </ul>
+        <div class="container-footer">
+          <span class="timer"><span class="num-items">0</span> items left</span>
+          <div class="buttons">
+            <!-- For web version -->
+            <div class="middle-btn">
+              <span class="btn all">All</span>
+              <span class="btn active">Active</span>
+              <span class="btn completed">Completed</span>
+            </div>
+            <span class="btn clear">Clear Completed</span>
+          </div>
+        </div>
+      </div>
+      <div class="mob-btn">
+      <span class="btn all">All</span>
+      <span class="btn active">Active</span>
+      <span class="btn completed">Completed</span>
+      </div>
+    </div>
+  </div>
+  <p>Drag and drop to reorder list</p>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.sskhekhaliya.com">SSKhekhaliya</a>.
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- jsDelivr :: Sortable :: Latest (https://www.jsdelivr.com/package/npm/sortablejs) -->
+<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="ToDOList.js" charset="utf-8"></script>
+</body>
+
+</html>
