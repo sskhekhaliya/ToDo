@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sskhekhaliya/Frontend-Mentor--ToDo)
-- Live Site URL: [Add live site URL here](https://sskhekhaliya.github.io/Frontend-Mentor--ToDo)
+- Solution URL: [solution URL](https://github.com/sskhekhaliya/Frontend-Mentor--ToDo)
+- Live Site URL: [live site URL](https://sskhekhaliya.github.io/Frontend-Mentor--ToDo)
 
 ## My process
 
