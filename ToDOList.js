@@ -146,8 +146,10 @@ $(document).ready(() => {
 
   //Dragging Function
   new Sortable(foo, {
-      animation: 150,
-      ghostClass: 'ghostClass',
+    animation: 150,
+    ghostClass: 'ghostClass',
+    delay: 100,
+    delayOnTouchOnly: true,
     group: "localStorage-example",
     store: {
       /**
@@ -169,6 +171,7 @@ $(document).ready(() => {
         localStorage.setItem(sortable.options.group.name, order.join('|'));
       }
     }
+
   });
 
 });
